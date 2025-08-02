@@ -1,8 +1,8 @@
 # BLoC Analytics Tracking
 
-Bu proje, [Medium'daki "Flutter'da Firebase Analytics ile BLoC Event Takibi" makalesi](https://medium.com/@baranselklnc/flutterda-firebase-analytics-ile-bloc-event-takibi) için oluşturulmuş bir demo uygulamasıdır.
+Bu proje, Medium'daki [ Flutter'da Firebase Analytics ile BLoC Event Takibi ](https://medium.com/@baranselklnc/flutterda-firebase-analytics-ile-bloc-event-takibi-bdba47d74b3a)  makalem için oluşturulmuş bir demo uygulamasıdır.
 
-## 🎯 Proje Amacı
+##  Proje Amacı
 
 Bu demo, makalede detaylı olarak açıklanan **BLoC mimarisi ile Firebase Analytics entegrasyonunun avantajlarını** pratik olarak göstermek için oluşturulmuştur. Asıl odak noktası UI tasarımı değil, **BLoC event'leri ile analytics arasındaki doğal uyum** ve bu yaklaşımın sağladığı avantajlardır:
 
@@ -12,7 +12,7 @@ Bu demo, makalede detaylı olarak açıklanan **BLoC mimarisi ile Firebase Analy
 - **Test Edilebilirlik**: Mock servis ile test ortamında analytics izole edilebilir
 - **Sürdürülebilirlik**: Tek bir yerden tüm analytics mantığı yönetilir
 
-## 🏗️ Proje Yapısı
+##  Proje Yapısı
 
 ```
 lib/
@@ -45,7 +45,7 @@ lib/
 └── main.dart                           # Ana uygulama dosyası
 ```
 
-## 🚀 Özellikler
+##  Özellikler
 
 ### 1. Merkezi Analytics Loglama
 - `AppBlocObserver` ile tüm BLoC event'leri otomatik olarak loglanır
@@ -68,7 +68,7 @@ lib/
 - BLoC testleri ile event'lerin doğru çalıştığını doğrulama
 - Analytics çağrılarının doğru yapıldığını test etme
 
-## 📱 Demo Sayfaları
+##  Demo Sayfaları
 
 **Not**: Bu sayfalar sadece BLoC event'lerini tetiklemek ve analytics entegrasyonunu göstermek için oluşturulmuştur. UI tasarımı ikincil öneme sahiptir.
 
@@ -87,7 +87,7 @@ lib/
 - Sepete ekleme (`AddToCartPressed` event'i tetikler)
 - Satın alma (`PurchasePressed` event'i tetikler)
 
-## �� Kurulum
+##  Kurulum
 
 1. Bağımlılıkları yükleyin:
 ```bash
@@ -112,14 +112,14 @@ flutter run
 
 **Not**: Firebase konfigürasyonu olmadan da Mock Analytics servisi ile çalışır.
 
-## 🧪 Testler
+##  Testler
 
 Testleri çalıştırmak için:
 ```bash
 flutter test
 ```
 
-## 📊 Analytics Event'leri
+##  Analytics Event'leri
 
 Uygulama çalıştığında aşağıdaki event'ler otomatik olarak loglanır:
 
@@ -136,7 +136,7 @@ Uygulama çalıştığında aşağıdaki event'ler otomatik olarak loglanır:
 - `state_transition` - State geçişleri
 - `bloc_error` - BLoC hataları
 
-## 🔄 Firebase Analytics Entegrasyonu
+##  Firebase Analytics Entegrasyonu
 
 Gerçek Firebase Analytics entegrasyonu için:
 
@@ -154,7 +154,7 @@ void logEvent(String name, {Map<String, dynamic>? parameters}) {
 }
 ```
 
-## 🎨 UI Özellikleri
+##  UI Özellikleri
 
 **Not**: UI tasarımı bu projenin ana odak noktası değildir. Aşağıdaki özellikler sadece BLoC event'lerini tetiklemek ve analytics entegrasyonunu göstermek için minimal olarak uygulanmıştır:
 
@@ -164,9 +164,9 @@ void logEvent(String name, {Map<String, dynamic>? parameters}) {
 - Error handling (BLoC error state'lerini göstermek için)
 - Snackbar bildirimleri (event tetikleme sonuçlarını göstermek için)
 
-## 📝 Makale İle İlişki
+##  Makale İle İlişki
 
-Bu proje, [Medium'daki "Flutter'da Firebase Analytics ile BLoC Event Takibi" makalesinde](https://medium.com/@baranselklnc/flutterda-firebase-analytics-ile-bloc-event-takibi) detaylı olarak açıklanan tüm kavramları pratik olarak gösterir:
+Bu proje, [Medium'daki "Flutter'da Firebase Analytics ile BLoC Event Takibi" makalesinde]([https://medium.com/@baranselklnc/flutterda-firebase-analytics-ile-bloc-event-takibi](https://medium.com/@baranselklnc/flutterda-firebase-analytics-ile-bloc-event-takibi-bdba47d74b3a)) detaylı olarak açıklanan tüm kavramları pratik olarak gösterir:
 
 ### Makalede Bahsedilen Kavramlar:
 - **Event Bazlı Yapının Doğal Uyumu**: BLoC event'leri ile Firebase Analytics'in mükemmel eşleşmesi
@@ -182,19 +182,16 @@ Bu projede makalede verilen tüm kod örnekleri gerçek implementasyonlarla dest
 - Dependency injection yapısı
 
 
-## 📄 Lisans
+##  Lisans
 
 Bu proje MIT lisansı altında lisanslanmıştır.
 
-## 👨‍💻 Yazar
+##  Yazar
 
 **Baransel Kılınç**
 
-- Medium: [Flutter'da Firebase Analytics ile BLoC Event Takibi](https://medium.com/@baranselklnc/flutterda-firebase-analytics-ile-bloc-event-takibi)
-- LinkedIn: [Baransel Kılınç](https://linkedin.com/in/baranselklnc)
+- Medium: [Flutter'da Firebase Analytics ile BLoC Event Takibi](https://medium.com/@baranselklnc/flutterda-firebase-analytics-ile-bloc-event-takibi-bdba47d74b3a)
+- LinkedIn: [Baransel Kılınç](https://www.linkedin.com/in/baransel-k%C4%B1l%C4%B1n%C3%A7/)
 
 ---
 
-⭐ Bu projeyi beğendiyseniz yıldız vermeyi unutmayın!
-
-📖 **İlgili Makale**: [Flutter'da Firebase Analytics ile BLoC Event Takibi - Neden Bu Kadar İyi Çalışıyor?](https://medium.com/@baranselklnc/flutterda-firebase-analytics-ile-bloc-event-takibi)
